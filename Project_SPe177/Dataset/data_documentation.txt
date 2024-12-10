@@ -1,0 +1,34 @@
+This data can be obtain at https://data.sonomacounty.ca.gov/Government/Animal-Shelter-Intake-and-Outcome/924a-vesw/about_data
+
+Data Documentation
+
++---------------------+--------------------------------------------------+---------------------+--------------------+
+| Column Name         | Description                                      | API Field Name      | Data Type          |
++---------------------+--------------------------------------------------+---------------------+--------------------+
+| Name                | Name of the animal. 
+			Animal names with an asterisk before them were 
+			given by shelter staff. 			 | name                | Text               |
+| Type                | Type of animal                                   | type                | Text               |
+| Breed               | Breed of animal                                  | breed               | Text               |
+| Color               | Color of animal, Black, Chocolate, White….       | color               | Text               |
+| Sex                 | Male, Female, Neutered Male, Spayed Female       | sex                 | Text               |
+| Size                | Large, medium, small, toy                      	 | size                | Text               |
+| Date Of Birth       | Approximate date of birth.                     	 | date_of_birth       | Floating Timestamp |
+| Impound Number      | Animal impound number                          	 | impound_number      | Text               |
+| Kennel Number       | Kennel number indicating its current location.   | kennel_number       | Text               |
+| Animal ID           | Unique ID                                        | id                  | Text               |
+| Intake Date         | Date animal was taken into the shelter           | intake_date         | Floating Timestamp |
+| Outcome Date        | Date animal left the shelter                     | outcome_date        | Floating Timestamp |
+| Days in Shelter     | Number of days the animal was in the shelter     | days_in_shelter     | Number             |
+| Intake Type         | Reason for intake                                | intake_type         | Text               |
+| Intake Subtype      | Sub reason for intake                            | intake_subtype      | Text               |
+| Outcome Type        | Reason for release from shelter                  | outcome_type        | Text               |
+| Outcome Subtype     | Sub reason for release from shelter              | outcome_subtype     | Text               |
+| Intake Condition    | Animals condition at intake                      | intake_condition    | Text               |
+| Outcome Condition   | Animals condition at release from shelter        | outcome_condition   | Text               |
+| Intake Jurisdiction | Jurisdiction responsible for animal intake       | intake_jurisdiction | Text               |
+| Outcome Jurisdiction| Area animal went to.                             | outcome_jurisdiction| Text               |
+| Outcome Zip Code    | Zip code where animal went to.                   | zip_code            | Text               |
+| Location            | Latitude, Longitude for outcome jurisdiction 	 | location            | Location           |
+| +---------------------+--------------------------------------------------+---------------------+--------------------+
+
